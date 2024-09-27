@@ -1,3 +1,6 @@
+
+//Login to facebook without using click().
+
 package facebook;
 
 import org.openqa.selenium.By;
