@@ -18,9 +18,9 @@ public class Facebook_login
        Thread.sleep(2000);
       WebElement ele= driver.findElement(By.xpath("//input[@name='email']"));
      	Thread.sleep(2000);
-     	ele.sendKeys("7903387778");
+     	ele.sendKeys("UserName");
      	Thread.sleep(2000);
-     	ele.sendKeys(Keys.TAB+"Guddu@123",Keys.ENTER);
+     	ele.sendKeys(Keys.TAB+"pwd",Keys.ENTER);
     	Thread.sleep(2000);
      	//WebElement ele2= driver.findElement(By.xpath("//input[@name='pass']"));
      	 // ele.sendKeys("Guddu@123");
