@@ -20,10 +20,10 @@ public class Facebook_login
      	Thread.sleep(2000);
      	ele.sendKeys("UserName");
      	Thread.sleep(2000);
-     	ele.sendKeys(Keys.TAB+"pwd",Keys.ENTER);
+     	ele.sendKeys(Keys.TAB+"pwd",Keys.ENTER);        insteed of This //WebElement ele2= driver.findElement(By.xpath("//input[@name='pass']"));
+                                                                      	 // ele.sendKeys("Guddu@123");
+     		                                                           //ele.sendKeys(Keys.ENTER);
     	Thread.sleep(2000);
-     	//WebElement ele2= driver.findElement(By.xpath("//input[@name='pass']"));
-     	 // ele.sendKeys("Guddu@123");
-     		//ele.sendKeys(Keys.ENTER);
+     	
 }
 }
